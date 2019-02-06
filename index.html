@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Suurkuvatulostimen hintalaskuri</title>
+</head>
+<body>
+  <h1>Suurkuvatulostimen hintalaskuri - Price calculator for the wide-format printer</h1>
+
+  <p>Syötä alle paperin pituus sekä musteen määrä, jolloin laskuri laskee tulosteelle hinnan.</p>
+  <p>Add below the length of paper and the amount of ink to get the price for the print.</p>
+
+  <form id="userInput">
+    Paperin pituus/ Paper length (0.00m): <br>
+    <input type="text" id="paperLength" name="paperlength" value=""> <br>
+    Musteen määrä/ Ink amount (0.00cc): <br>
+    <input type="text" id="inkAmount" name="inkamount" value=""><br>
+    <input type="button" onclick="calculatePrice()" value="Lähetä/Submit">
+    <div id="totalPrice"></div>
+  </form>
+
+
+
+<script src="laskuri.js" type="text/javascript"></script>
+</body>
+</html>
