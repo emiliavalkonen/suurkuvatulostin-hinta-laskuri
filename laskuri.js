@@ -1,5 +1,5 @@
 
-// Muuta hintoja tarvittaessa
+// HUOM JOS HINTOJA PITÄÄ MUUTTAA, TEE SE TÄSSÄ!
 const paperPrice = 0.40;
 const inkPrice = 6.00;
 
